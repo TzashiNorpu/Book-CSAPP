@@ -206,6 +206,14 @@
             <mxPoint x="5" y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="huJF_Qs0aNRU9yXHvJFa-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="huJF_Qs0aNRU9yXHvJFa-71" target="huJF_Qs0aNRU9yXHvJFa-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="huJF_Qs0aNRU9yXHvJFa-113" value="SSO个人首页" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="huJF_Qs0aNRU9yXHvJFa-112">
+          <mxGeometry x="0.1057" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="huJF_Qs0aNRU9yXHvJFa-71" value="SSO Back" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.database_server" vertex="1" parent="1">
           <mxGeometry x="1420" y="490" width="38" height="50" as="geometry" />
         </mxCell>
@@ -237,10 +245,12 @@
           <mxGeometry x="1503" y="344.5" width="38" height="50" as="geometry" />
         </mxCell>
         <mxCell id="huJF_Qs0aNRU9yXHvJFa-95" value="财管" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.database_server" vertex="1" parent="1">
-          <mxGeometry x="1633" y="490" width="38" height="50" as="geometry" />
+          <mxGeometry x="1863" y="490" width="38" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="huJF_Qs0aNRU9yXHvJFa-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="huJF_Qs0aNRU9yXHvJFa-71" target="huJF_Qs0aNRU9yXHvJFa-95">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="huJF_Qs0aNRU9yXHvJFa-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.018;exitY=0.521;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="huJF_Qs0aNRU9yXHvJFa-111" target="huJF_Qs0aNRU9yXHvJFa-95">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1730" y="490" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="huJF_Qs0aNRU9yXHvJFa-105" value="跳转" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="huJF_Qs0aNRU9yXHvJFa-97">
           <mxGeometry x="-0.0881" y="-2" relative="1" as="geometry">
@@ -250,7 +260,8 @@
         <mxCell id="huJF_Qs0aNRU9yXHvJFa-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.014;entryY=0.639;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.293;exitY=-0.031;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="huJF_Qs0aNRU9yXHvJFa-95" target="huJF_Qs0aNRU9yXHvJFa-87">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1644" y="377" />
+              <mxPoint x="1870" y="489" />
+              <mxPoint x="1870" y="377" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -260,7 +271,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="huJF_Qs0aNRU9yXHvJFa-101" value="财管个人首页" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.web_server" vertex="1" parent="1">
-          <mxGeometry x="1763" y="490" width="38" height="50" as="geometry" />
+          <mxGeometry x="1993" y="490" width="38" height="50" as="geometry" />
         </mxCell>
         <mxCell id="huJF_Qs0aNRU9yXHvJFa-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="huJF_Qs0aNRU9yXHvJFa-95" target="huJF_Qs0aNRU9yXHvJFa-101">
           <mxGeometry relative="1" as="geometry" />
@@ -270,13 +281,16 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="huJF_Qs0aNRU9yXHvJFa-110" style="edgeStyle=orthogonalEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="huJF_Qs0aNRU9yXHvJFa-108">
+        <mxCell id="huJF_Qs0aNRU9yXHvJFa-115" style="edgeStyle=orthogonalEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="huJF_Qs0aNRU9yXHvJFa-108">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1535" y="520" as="targetPoint" />
+            <mxPoint x="1734.9999999999995" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="huJF_Qs0aNRU9yXHvJFa-108" value="&lt;span style=&quot;text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Token&amp;amp;财管个人首页&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1480" y="540" width="110" height="40" as="geometry" />
+          <mxGeometry x="1680" y="550" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="huJF_Qs0aNRU9yXHvJFa-111" value="SSO Web" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.web_server" vertex="1" parent="1">
+          <mxGeometry x="1590" y="490" width="38" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
