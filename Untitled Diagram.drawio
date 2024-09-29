@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="FFGEd19_PelASJCq2h37-7" value="HR" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.database_server" parent="1" vertex="1">
-          <mxGeometry x="160" y="390" width="38" height="50" as="geometry" />
+          <mxGeometry x="67" y="460" width="38" height="50" as="geometry" />
         </mxCell>
         <mxCell id="FFGEd19_PelASJCq2h37-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FFGEd19_PelASJCq2h37-8" target="FFGEd19_PelASJCq2h37-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -16,10 +16,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="FFGEd19_PelASJCq2h37-8" value="SSO Back" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.database_server" parent="1" vertex="1">
-          <mxGeometry x="286" y="510" width="38" height="50" as="geometry" />
+          <mxGeometry x="193" y="580" width="38" height="50" as="geometry" />
         </mxCell>
         <mxCell id="FFGEd19_PelASJCq2h37-9" value="全量用户数据" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/AzureFXTEdgeFiler.svg;" parent="1" vertex="1">
-          <mxGeometry x="280" y="390" width="50" height="50" as="geometry" />
+          <mxGeometry x="187" y="460" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="FFGEd19_PelASJCq2h37-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.049;entryY=0.506;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="FFGEd19_PelASJCq2h37-7" target="FFGEd19_PelASJCq2h37-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -38,10 +38,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="FFGEd19_PelASJCq2h37-16" value="用户中心" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.database_server" parent="1" vertex="1">
-          <mxGeometry x="400" y="390" width="38" height="50" as="geometry" />
+          <mxGeometry x="307" y="460" width="38" height="50" as="geometry" />
         </mxCell>
         <mxCell id="FFGEd19_PelASJCq2h37-17" value="安全中心" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.database_server" parent="1" vertex="1">
-          <mxGeometry x="480" y="390" width="38" height="50" as="geometry" />
+          <mxGeometry x="387" y="460" width="38" height="50" as="geometry" />
         </mxCell>
         <mxCell id="FFGEd19_PelASJCq2h37-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="FFGEd19_PelASJCq2h37-18" target="FFGEd19_PelASJCq2h37-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -52,15 +52,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="FFGEd19_PelASJCq2h37-18" value="SSO Web" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.web_server" parent="1" vertex="1">
-          <mxGeometry x="286" y="630" width="38" height="50" as="geometry" />
+          <mxGeometry x="193" y="700" width="38" height="50" as="geometry" />
         </mxCell>
         <mxCell id="FFGEd19_PelASJCq2h37-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="330" y="535.0285714285715" as="sourcePoint" />
-            <mxPoint x="400" y="415" as="targetPoint" />
+            <mxPoint x="237" y="605.0285714285715" as="sourcePoint" />
+            <mxPoint x="307" y="485" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="360" y="535" />
-              <mxPoint x="360" y="415" />
+              <mxPoint x="267" y="605" />
+              <mxPoint x="267" y="485" />
             </Array>
           </mxGeometry>
         </mxCell>
