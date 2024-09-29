@@ -319,6 +319,11 @@
         <mxCell id="huJF_Qs0aNRU9yXHvJFa-149" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="huJF_Qs0aNRU9yXHvJFa-143" target="huJF_Qs0aNRU9yXHvJFa-148">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="huJF_Qs0aNRU9yXHvJFa-165" value="新增用户系统访问权限" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="huJF_Qs0aNRU9yXHvJFa-149">
+          <mxGeometry x="-0.2598" y="1" relative="1" as="geometry">
+            <mxPoint x="10" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="huJF_Qs0aNRU9yXHvJFa-151" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;shape=mxgraph.mscae.enterprise.user_permissions;fillColor=#0078D7;" vertex="1" parent="1">
           <mxGeometry x="40" y="1140" width="47" height="50" as="geometry" />
         </mxCell>
@@ -358,9 +363,6 @@
         </mxCell>
         <mxCell id="huJF_Qs0aNRU9yXHvJFa-162" value="用户配置：所属机构、部门、岗位、权限...&lt;div style=&quot;font-size: 9px;&quot;&gt;用户保存&lt;/div&gt;" style="html=1;whiteSpace=wrap;fontSize=9;align=left;" vertex="1" parent="1">
           <mxGeometry x="770" y="1140" width="110" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="huJF_Qs0aNRU9yXHvJFa-163" value="新增用户系统访问权限" style="shape=stencil(fZbdcgIhDIWfZm8zQAg/17Z9j85U606tdqz9e/tmZ0c0uJ47xP0I5JwEBl59bp8/1kNwn6fj4W39M76ctgM/DCGM++36OJ50NPDjwKvN4bh+PR6+9i/z74/n6ctp9H74nlb4nbmSKZeJCu5vngmZ6jzzNAO7cX8FVKEsBuBKrgKg9oAE8gkCbLeUhEoEQKSUDZDLeWYRKIl8MEDRmHwfyBrBG6Amyu4+kDxxMoB3jhwgYu7TVAsVkFcWCs4CTBEoF4RctKeOxHIf8IXYpikHikAIf+MNUW94AGSSaoAoFIE3AlOyeWU+p2E5S9yfQZcQILVuQOwZdJNoS9Ls3wA5u2XZTIHECqeJ9kDpSaauRiNVcAY1QhdBzeLBli5WazpkSsBLV25uRaqWRyFawTQzRRIQYirJzq5atkBqLfouwqUxLBepthWb10vrWZY6UOAeyKCCtDV625mm9gmUC4Wc3VLJMMIE1BsA2FW9JraVlQB7n3c9oMKhCLEvIM1zBPZ25/umNQ1tVEC2G+fFCC8g398O2hNQuQlVu752DBfA+q0ptnqO5JFmeuIuo9DY7KjY71UxdJV4EntifPWorW++R/dC4t7V3DlIB5cHx2bc7eb3yvX//QNFp+bHDT/+Aw==);lineShape=1;strokeColor=default;" vertex="1" parent="1">
-          <mxGeometry x="247.35723121140586" y="1163.3967756314144" width="3.2224412221481105" height="3.217404287142613" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
