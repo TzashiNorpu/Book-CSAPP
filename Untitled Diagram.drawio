@@ -361,6 +361,9 @@
         <mxCell id="huJF_Qs0aNRU9yXHvJFa-167" value="SSO只保存工号？状态、电话啥的要保存吗？&lt;div&gt;关系到跳转时携带的用户信息&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="1140" y="690" width="490" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="huJF_Qs0aNRU9yXHvJFa-168" value="SSO不做机构、科目等参数的管理&lt;div&gt;科目、机构等参数管理在总账内管实现，财管和税务和总账内管对接&lt;/div&gt;&lt;div&gt;SSO没有机构信息，因此也不做HR系统机构和总账机构参数之间的转换、映射，因此SSO的用户信息也不做机构属性&lt;/div&gt;&lt;div&gt;且各系统自身维护用户属性可以和HR的不一致：如机构、岗位等&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="900" width="490" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
