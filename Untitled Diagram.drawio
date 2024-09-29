@@ -1,9 +1,74 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0" version="24.7.16">
   <diagram name="Page-1" id="tWwGJDd1BKMliuyMHz1E">
-    <mxGraphModel>
+    <mxGraphModel dx="1034" dy="652" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="FFGEd19_PelASJCq2h37-7" value="HR" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.database_server" vertex="1" parent="1">
+          <mxGeometry x="160" y="390" width="38" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FFGEd19_PelASJCq2h37-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FFGEd19_PelASJCq2h37-8" target="FFGEd19_PelASJCq2h37-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FFGEd19_PelASJCq2h37-29" value="密码校验&amp;amp;Token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FFGEd19_PelASJCq2h37-28">
+          <mxGeometry x="-0.3961" y="-2" relative="1" as="geometry">
+            <mxPoint x="44" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FFGEd19_PelASJCq2h37-8" value="SSO Back" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.database_server" vertex="1" parent="1">
+          <mxGeometry x="286" y="510" width="38" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FFGEd19_PelASJCq2h37-9" value="全量用户数据" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/AzureFXTEdgeFiler.svg;" vertex="1" parent="1">
+          <mxGeometry x="280" y="390" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FFGEd19_PelASJCq2h37-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.049;entryY=0.506;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FFGEd19_PelASJCq2h37-7" target="FFGEd19_PelASJCq2h37-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FFGEd19_PelASJCq2h37-11" value="PUSH" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FFGEd19_PelASJCq2h37-10">
+          <mxGeometry x="-0.038" y="1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FFGEd19_PelASJCq2h37-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FFGEd19_PelASJCq2h37-9" target="FFGEd19_PelASJCq2h37-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FFGEd19_PelASJCq2h37-15" value="PULL" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FFGEd19_PelASJCq2h37-14">
+          <mxGeometry x="0.1363" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FFGEd19_PelASJCq2h37-16" value="用户中心" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.database_server" vertex="1" parent="1">
+          <mxGeometry x="400" y="390" width="38" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FFGEd19_PelASJCq2h37-17" value="安全中心" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.database_server" vertex="1" parent="1">
+          <mxGeometry x="480" y="390" width="38" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FFGEd19_PelASJCq2h37-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FFGEd19_PelASJCq2h37-18" target="FFGEd19_PelASJCq2h37-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FFGEd19_PelASJCq2h37-24" value="Login" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FFGEd19_PelASJCq2h37-23">
+          <mxGeometry x="-0.0452" y="-5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FFGEd19_PelASJCq2h37-18" value="SSO Web" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.web_server" vertex="1" parent="1">
+          <mxGeometry x="286" y="630" width="38" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FFGEd19_PelASJCq2h37-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="535.0285714285715" as="sourcePoint" />
+            <mxPoint x="400" y="415" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="360" y="535" />
+              <mxPoint x="360" y="415" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FFGEd19_PelASJCq2h37-26" value="用户校验" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FFGEd19_PelASJCq2h37-25">
+          <mxGeometry x="-0.0076" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
