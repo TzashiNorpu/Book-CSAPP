@@ -174,7 +174,7 @@
         <mxCell id="huJF_Qs0aNRU9yXHvJFa-58" value="安全中心" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.database_server" vertex="1" parent="1">
           <mxGeometry x="560" y="840" width="38" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="huJF_Qs0aNRU9yXHvJFa-61" value="用户配置：所属机构、部门、岗位、权限...&lt;div style=&quot;font-size: 9px;&quot;&gt;用户保存&lt;/div&gt;" style="html=1;whiteSpace=wrap;fontSize=9;align=left;" vertex="1" parent="1">
+        <mxCell id="huJF_Qs0aNRU9yXHvJFa-61" value="用户配置：所属机构、部门、岗位、权限等其他信息&lt;div style=&quot;font-size: 9px;&quot;&gt;用户保存&lt;/div&gt;" style="html=1;whiteSpace=wrap;fontSize=9;align=left;" vertex="1" parent="1">
           <mxGeometry x="780" y="960" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="huJF_Qs0aNRU9yXHvJFa-70" value="SSO Web" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.web_server" vertex="1" parent="1">
@@ -361,7 +361,7 @@
         <mxCell id="huJF_Qs0aNRU9yXHvJFa-161" value="用户信息：工号、其他信息？" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="huJF_Qs0aNRU9yXHvJFa-158">
           <mxGeometry y="60" width="120" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="huJF_Qs0aNRU9yXHvJFa-162" value="用户配置：所属机构、部门、岗位、权限...&lt;div style=&quot;font-size: 9px;&quot;&gt;用户保存&lt;/div&gt;" style="html=1;whiteSpace=wrap;fontSize=9;align=left;" vertex="1" parent="1">
+        <mxCell id="huJF_Qs0aNRU9yXHvJFa-162" value="用户配置：所属机构、部门、岗位、权限等其他信息&lt;div style=&quot;font-size: 9px;&quot;&gt;用户保存&lt;/div&gt;" style="html=1;whiteSpace=wrap;fontSize=9;align=left;" vertex="1" parent="1">
           <mxGeometry x="770" y="1140" width="110" height="50" as="geometry" />
         </mxCell>
       </root>
