@@ -242,8 +242,8 @@
         <mxCell id="huJF_Qs0aNRU9yXHvJFa-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="huJF_Qs0aNRU9yXHvJFa-71" target="huJF_Qs0aNRU9yXHvJFa-95">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="huJF_Qs0aNRU9yXHvJFa-98" value="Token&amp;amp;财管个人首页" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="huJF_Qs0aNRU9yXHvJFa-97">
-          <mxGeometry x="-0.2426" y="-1" relative="1" as="geometry">
+        <mxCell id="huJF_Qs0aNRU9yXHvJFa-105" value="跳转" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="huJF_Qs0aNRU9yXHvJFa-97">
+          <mxGeometry x="-0.0881" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -269,6 +269,14 @@
           <mxGeometry x="-0.048" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="huJF_Qs0aNRU9yXHvJFa-110" style="edgeStyle=orthogonalEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="huJF_Qs0aNRU9yXHvJFa-108">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1535" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="huJF_Qs0aNRU9yXHvJFa-108" value="&lt;span style=&quot;text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Token&amp;amp;财管个人首页&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="540" width="110" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
