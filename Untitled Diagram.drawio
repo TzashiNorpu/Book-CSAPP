@@ -364,6 +364,9 @@
         <mxCell id="huJF_Qs0aNRU9yXHvJFa-162" value="用户配置：所属机构、部门、岗位、权限等其他信息&lt;div style=&quot;font-size: 9px;&quot;&gt;用户保存&lt;/div&gt;" style="html=1;whiteSpace=wrap;fontSize=9;align=left;" vertex="1" parent="1">
           <mxGeometry x="770" y="1140" width="110" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="huJF_Qs0aNRU9yXHvJFa-166" value="用户权限在各系统自身调整&lt;div&gt;除工号以为的信息在各系统自身维护，包括变更，如所属机构、电话、部门...&lt;/div&gt;&lt;div&gt;SSO只做用户访问系统的维护、只保存用户的关键信息&lt;/div&gt;&lt;div&gt;SSO和其他系统交互时只使用工号&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="950" width="210" height="90" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
