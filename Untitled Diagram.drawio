@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0" version="24.7.16">
   <diagram name="Page-1" id="tWwGJDd1BKMliuyMHz1E">
-    <mxGraphModel dx="1248" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1810" dy="1141" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -355,7 +355,7 @@
         <mxCell id="huJF_Qs0aNRU9yXHvJFa-162" value="用户配置：所属机构、部门、岗位、权限等其他信息&lt;div style=&quot;font-size: 9px;&quot;&gt;用户保存&lt;/div&gt;" style="html=1;whiteSpace=wrap;fontSize=9;align=left;" vertex="1" parent="1">
           <mxGeometry x="770" y="1140" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="huJF_Qs0aNRU9yXHvJFa-166" value="用户权限在各系统自身调整&lt;div&gt;除工号以为的信息在各系统自身维护，包括变更，如所属机构、电话、部门...&lt;/div&gt;&lt;div&gt;SSO只做用户访问系统的维护、只保存用户的关键信息&lt;/div&gt;&lt;div&gt;SSO和其他系统交互时只使用工号&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="huJF_Qs0aNRU9yXHvJFa-166" value="用户权限在各系统自身调整&lt;div&gt;除工号以为的信息在各系统自身维护，包括变更，如所属机构、电话、部门...&lt;/div&gt;&lt;div&gt;SSO只做用户访问系统的维护、只保存用户的关键信息&lt;/div&gt;&lt;div&gt;SSO和其他系统交互时只使用工号&lt;/div&gt;&lt;div&gt;员工的信息由对应的SSO审批管理员在各自系统的页面中维护&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="1140" y="770" width="490" height="100" as="geometry" />
         </mxCell>
         <mxCell id="huJF_Qs0aNRU9yXHvJFa-167" value="SSO只保存工号？状态、电话啥的要保存吗？&lt;div&gt;关系到跳转时携带的用户信息&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
