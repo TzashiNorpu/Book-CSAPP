@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0" version="24.7.16">
   <diagram name="Page-1" id="tWwGJDd1BKMliuyMHz1E">
-    <mxGraphModel dx="1034" dy="652" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="724" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -176,6 +176,65 @@
         </mxCell>
         <mxCell id="huJF_Qs0aNRU9yXHvJFa-61" value="用户配置：所属机构、部门、岗位、权限...&lt;div style=&quot;font-size: 9px;&quot;&gt;用户保存&lt;/div&gt;" style="html=1;whiteSpace=wrap;fontSize=9;align=left;" vertex="1" parent="1">
           <mxGeometry x="780" y="960" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="huJF_Qs0aNRU9yXHvJFa-70" value="SSO Web" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.web_server" vertex="1" parent="1">
+          <mxGeometry x="1240" y="490" width="38" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="huJF_Qs0aNRU9yXHvJFa-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="huJF_Qs0aNRU9yXHvJFa-71" target="huJF_Qs0aNRU9yXHvJFa-86">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1439" y="440" />
+              <mxPoint x="1360" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="huJF_Qs0aNRU9yXHvJFa-93" value="用户校验" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="huJF_Qs0aNRU9yXHvJFa-91">
+          <mxGeometry x="0.3771" y="-4" relative="1" as="geometry">
+            <mxPoint x="-4" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="huJF_Qs0aNRU9yXHvJFa-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="huJF_Qs0aNRU9yXHvJFa-71" target="huJF_Qs0aNRU9yXHvJFa-87">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1439" y="440" />
+              <mxPoint x="1520" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="huJF_Qs0aNRU9yXHvJFa-94" value="密码校验&amp;amp;Token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="huJF_Qs0aNRU9yXHvJFa-92">
+          <mxGeometry x="0.4535" y="3" relative="1" as="geometry">
+            <mxPoint x="5" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="huJF_Qs0aNRU9yXHvJFa-71" value="SSO Back" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.database_server" vertex="1" parent="1">
+          <mxGeometry x="1420" y="490" width="38" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="huJF_Qs0aNRU9yXHvJFa-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="huJF_Qs0aNRU9yXHvJFa-70" target="huJF_Qs0aNRU9yXHvJFa-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="huJF_Qs0aNRU9yXHvJFa-73" value="系统访问权限申请" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="huJF_Qs0aNRU9yXHvJFa-72">
+          <mxGeometry x="-0.1018" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="huJF_Qs0aNRU9yXHvJFa-74" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.user" vertex="1" parent="1">
+          <mxGeometry x="1130" y="490" width="47" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="huJF_Qs0aNRU9yXHvJFa-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="huJF_Qs0aNRU9yXHvJFa-74" target="huJF_Qs0aNRU9yXHvJFa-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="huJF_Qs0aNRU9yXHvJFa-77" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;shape=link;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="960" y="350" as="sourcePoint" />
+            <mxPoint x="960" y="1080" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="huJF_Qs0aNRU9yXHvJFa-86" value="用户中心" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.database_server" vertex="1" parent="1">
+          <mxGeometry x="1343" y="344.5" width="38" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="huJF_Qs0aNRU9yXHvJFa-87" value="安全中心" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.database_server" vertex="1" parent="1">
+          <mxGeometry x="1503" y="344.5" width="38" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
